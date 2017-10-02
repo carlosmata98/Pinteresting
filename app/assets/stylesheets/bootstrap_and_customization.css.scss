@@ -1,2 +1,11 @@
-$body-bg: red;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$body-bg: #ecf0f1;
+$font-family-sans-serif:                 'Lato';
+$navbar-inverse-bg: #27ae60;
+$navbar-inverse-link-color: white;
+$brand-primary: #f39c12;
+$jumbotron-bg: #bdc3c7;
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
