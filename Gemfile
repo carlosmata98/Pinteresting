@@ -11,6 +11,7 @@ end
 
 gem 'rails', '~> 5.1.4'
 gem 'puma', '~> 3.7'
+gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -25,7 +26,6 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'sqlite3'
 end
 
 group :development do
@@ -37,7 +37,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 group :doc do
