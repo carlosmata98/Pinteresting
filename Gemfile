@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -9,7 +9,6 @@ end
 
 
 gem 'rails', '~> 5.1.4'
-
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -39,4 +38,8 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+end
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
 end
