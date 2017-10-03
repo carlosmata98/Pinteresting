@@ -1,1 +1,1 @@
-web: bundle exec puma -C config/puma.rb
+web: waitress-serve --port=$PORT hellowebapp.wsgi:application
