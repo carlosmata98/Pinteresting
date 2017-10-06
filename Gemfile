@@ -9,7 +9,7 @@ end
 
 gem 'delayed_job_active_record'
 gem 'rails', '~> 5.1.4'
-gem 'puma'
+gem 'puma', '~> 3.10'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -37,7 +37,7 @@ end
 
 group :production do
 	gem 'rails_12factor'
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
   gem 'unicorn'
 end
 group :doc do
