@@ -7,6 +7,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bundler', '~> 1.16.0.pre.3'
 gem 'delayed_job_active_record'
 gem 'rails', '~> 5.1.4'
 gem 'puma', '~> 3.7'
