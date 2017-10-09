@@ -5,8 +5,8 @@ class PagesController < ApplicationController
   def about
   end
   
-  def rails.index
-  @users = User.all
+  def index
+  
   end
  
  end
