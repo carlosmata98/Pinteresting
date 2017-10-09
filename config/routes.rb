@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
- 
 
- get "pages/home"
+  
+get "pages/home"
   
   get "about" => "pages#about"
+
+  
+  root 'pins#index'
 end
