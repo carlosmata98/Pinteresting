@@ -1,15 +1,9 @@
 source 'https://rubygems.org'
 
 ruby '2.4.1'
-
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
-
-gem 'bundler', '~> 1.16.0.pre.3'
-gem 'delayed_job_active_record'
 gem 'rails', '~> 5.1.4'
+
+gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -21,6 +15,8 @@ gem 'bootstrap-sass'
 
 group :development do
   gem 'sqlite3'
+  gem 'better_errors'
+  gem 'rails_layout'
 end
 
 group :development, :test do
@@ -37,9 +33,9 @@ group :development do
 end
 
 group :production do
-	gem 'rails_12factor'
+
   gem 'pg'
-  gem 'unicorn'
+
 end
 group :doc do
   gem 'sdoc', require: false
