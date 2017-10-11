@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bundler', '~> 1.16.0.pre.3'
+gem 'devise', '~> 4.3'
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
