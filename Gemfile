@@ -14,6 +14,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bundler', '~> 1.16.0.pre.3'
 gem 'devise', '~> 4.3'
+gem 'paperclip', '~> 4.2'
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
