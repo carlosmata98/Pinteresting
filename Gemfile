@@ -16,6 +16,7 @@ gem 'bundler', '~> 1.16.0.pre.3'
 gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.0.0'
 gem 'aws-sdk', '~> 2.3'
+gem 'masonry-rails', '~> 0.2.0'
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
