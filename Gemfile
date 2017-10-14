@@ -14,7 +14,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'bundler', '~> 1.16.0.pre.3'
 gem 'devise', '~> 4.3'
-gem 'paperclip', '~> 4.2'
+gem 'paperclip', '~> 5.0.0'
 gem 'aws-sdk', '~> 2.3'
 group :development do
   gem 'sqlite3'
