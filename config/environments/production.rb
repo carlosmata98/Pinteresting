@@ -92,7 +92,7 @@ Rails.application.configure do
     secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
   }
 }
-  # Use a different logger for distributed setups.
+   Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
